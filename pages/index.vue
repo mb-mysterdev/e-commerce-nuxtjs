@@ -30,6 +30,9 @@
 import Product from '~/components/shop/product/Product.vue'
 export default {
   name: 'Index',
-  components: { Product }
+  components: { Product },
+  data () {
+    products: [{ isNew: false, title: 'Vape du moment', image: '' }, { isNew: false, title: 'Vape du moment', image: '' }]
+  }
 }
 </script>

@@ -2,8 +2,8 @@
   <div class="col-lg-3 col-md-4 col-sm-6 mix women">
     <div>
       <div class="product__item">
-        <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
-          <div class="label new">
+        <div class="product__item__pic set-bg" style="background-image: url('https://i.pinimg.com/originals/41/7b/d1/417bd1ee04fe30e07f81987127676368.jpg')">
+          <div v-if="isNew" class="label new">
             New
           </div>
           <ul class="product__hover">
@@ -32,6 +32,14 @@
 
 <script>
 export default {
+  props: {
+    product: {
+      type: Object,
+      default () {
+        return { isNew: false }
+      }
+    }
+  }
 
 }
 </script>
