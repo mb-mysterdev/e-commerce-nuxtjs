@@ -10,7 +10,7 @@
               style="background-image: url('https://cdn.pixabay.com/photo/2018/05/21/04/40/vape-3417375_1280.jpg')"
             >
               <div class="categories__text">
-                <h1>Vapoter.fr</h1>
+                <h1>Vape website </h1>
               </div>
             </div>
           </div>
